@@ -1,0 +1,15 @@
+
+.status-placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.status-circle {
+  width: 50px; 
+  height: 50px;
+  border-radius: 50%;
+  border: 3px solid #25D366; 
+  background-color: #f0f0f0; 
+}

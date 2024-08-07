@@ -1,0 +1,60 @@
+/* src/components/ChatListItem.css */
+.chatListItem {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .chatListItem.active {
+    background-color: #ebebeb;
+  }
+  
+  .chatListItem:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .chatListItem--avatar {
+    width: 50px;
+    height: 50px;
+    background-color: black; /* Solid black color */
+    border-radius: 50%; /* Circular shape */
+    margin-right: 15px; /* Space between avatar and text */
+  }
+  
+  .chatListItem--details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+  }
+  
+  .chatListItem--name {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px; /* Space between name and last message */
+  }
+  
+  .chatListItem--lastMsg {
+    color: #999;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+  }
+  
+  .chatListItem--date {
+    font-size: 12px;
+    color: #999;
+    align-self: flex-end; /* Align the time to the right */
+  }
+  
+  .divider {
+    border: none;
+    height: 1px;
+    background-color: #e0e0e0;
+    margin: 0;
+  }
+  

@@ -1,0 +1,82 @@
+/* NewChat.css */
+.newChat {
+  position: fixed;
+  width: 30%;
+  height: 100%;
+  right: 0;
+  top: 0;
+  background-color: white;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000; /* Ensure it's above other elements */
+  overflow-y: auto; /* Allow scrolling if content overflows */
+  transition: top 0.3s ease-in-out; /* Smooth transition */
+}
+
+.sidebar--topo {
+  height: 60px;
+}
+
+.newChat--list {
+  padding: 10px;
+}
+
+.newChat--item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc; /* Add a line between items */
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.newChat--item:hover {
+  background-color: #f5f5f5;
+}
+
+.newChat--itemAvatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+  background-color: black;
+}
+
+.newChat--itemName {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.newChat--closebutton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1100;
+}
+
+/* NewChat.css */
+.newChat--attachment {
+  position: absolute;
+  bottom: 20px; /* Adjust this value to move the icon down */
+  left: 20px; /* Adjust this value for horizontal positioning */
+  cursor: pointer;
+  z-index: 1100;
+  font-size: 30px; /* Adjust size if needed */
+  color: #1DAB67; /* Color of the icon */
+}
+
+
+
+.sidebar--content {
+  padding: 20px 0;
+}
+
+.sidebar--chatlist-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.topo-transparent {
+  background-color: rgba(255, 255, 255, 0.8);
+}

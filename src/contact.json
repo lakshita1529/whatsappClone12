@@ -1,0 +1,21 @@
+[
+    {
+      "id": "user1",
+      "name": "Alex",
+      "avatar": "https://i.pravatar.cc/150?img=1",
+      "email": "alex@example.com"
+    },
+    {
+      "id": "user2",
+      "name": "Jordan",
+      "avatar": "https://i.pravatar.cc/150?img=2",
+      "email": "jordan@example.com"
+    },
+    {
+      "id": "user3",
+      "name": "Taylor",
+      "avatar": "https://i.pravatar.cc/150?img=3",
+      "email": "taylor@example.com"
+    }
+  ]
+  
